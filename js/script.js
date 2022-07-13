@@ -26,6 +26,9 @@
     else if (parseInt(ques) >= 5000){
         var final = "I'm sorry, the current limit is 4999... "
     }
+    else {
+        final = ""
+    }
     document
       .getElementById("answer")
       .textContent = final; }
