@@ -1,3 +1,10 @@
 body {
     background-color: #da62f9;
   }
+
+button:hover {
+    background-color: #46dadb;
+  }
+button:active {
+    background-color: #46da46;
+}
